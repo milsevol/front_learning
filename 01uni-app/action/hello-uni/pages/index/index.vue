@@ -1,9 +1,6 @@
 <template>
 	<view class="content">
-		<image class="logo" src="/static/logo.png"></image>
-		<view class="text-area">
-			<text class="title">{{title}}</text>
-		</view>
+		<button type="primary" @click="gotoPage('/pages/component/text01/text01')">组件的基本使用</button>
 	</view>
 </template>
 
@@ -18,7 +15,11 @@
 
 		},
 		methods: {
-
+			gotoPage(page){
+				 uni.navigateTo({
+				    url: page,
+				  })
+			}
 		}
 	}
 </script>

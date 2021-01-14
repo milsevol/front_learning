@@ -24,7 +24,16 @@
 		{
 			"path": "pages/contact/contact"
 		}
-	],
+	    ,{
+            "path" : "pages/component/text01/text01",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 	"tabBar": {
 		"list": [{
 				"text": "首页",
