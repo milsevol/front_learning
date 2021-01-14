@@ -20,8 +20,32 @@
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
+		},
+		{
+			"path": "pages/contact/contact"
 		}
 	],
+	"tabBar": {
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/tabs/home.png",
+				"selectedIconPath": "static/tabs/home-active.png"
+			},
+			{
+				"text": "信息",
+				"pagePath": "pages/message/message",
+				"iconPath": "static/tabs/message.png",
+				"selectedIconPath": "static/tabs/message-active.png"
+			},
+			{
+				"text": "我们",
+				"pagePath": "pages/contact/contact",
+				"iconPath": "static/tabs/contact.png",
+				"selectedIconPath": "static/tabs/contact-active.png"
+			}
+		]
+	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",
