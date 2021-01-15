@@ -4,6 +4,7 @@
 		<button type="primary" @click="gotoPage('/pages/component/button01/button01')">按钮的用法</button>
 		<button type="primary" @click="gotoPage('/pages/component/image01/image01')">图片</button>
 		<button type="primary" @click="gotoPage('/pages/component/style01/style01')">样式</button>
+		<button type="primary" @click="gotoPage('/pages/data/data01/data01')">数据绑定</button>
 	</view>
 </template>
 

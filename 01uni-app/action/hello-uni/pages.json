@@ -60,6 +60,15 @@
             }
             
         }
+        ,{
+            "path" : "pages/data/data01/data01",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"tabBar": {
 		"list": [{
