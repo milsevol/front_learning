@@ -1,6 +1,9 @@
 <template>
 	<view class="content">
 		<button type="primary" @click="gotoPage('/pages/component/text01/text01')">组件的基本使用</button>
+		<button type="primary" @click="gotoPage('/pages/component/button01/button01')">按钮的用法</button>
+		<button type="primary" @click="gotoPage('/pages/component/image01/image01')">图片</button>
+		<button type="primary" @click="gotoPage('/pages/component/style01/style01')">样式</button>
 	</view>
 </template>
 

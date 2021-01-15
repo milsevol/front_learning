@@ -21,6 +21,12 @@
 	  
 	   <!-- 是否解码 -->
 	    <text decode='true'>&nbsp; &lt; &gt; &amp; &apos; &ensp; &emsp;</text>
+		
+		<view class="box2" hover-class="box2_active">
+		  <view class='box1' hover-class='active' hover-stop-propagation :hover-start-time="2000" :hover-stay-time='2000'>
+		
+		  </view>
+		</view>
 	</view>
 	
 </template>
