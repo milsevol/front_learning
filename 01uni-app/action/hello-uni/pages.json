@@ -69,6 +69,15 @@
             }
             
         }
+        ,{
+            "path" : "pages/event/event01/event01",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"tabBar": {
 		"list": [{
