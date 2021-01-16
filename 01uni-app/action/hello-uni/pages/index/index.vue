@@ -7,6 +7,7 @@
 		<button type="primary" @click="gotoPage('/pages/data/data01/data01')">数据绑定</button>
 		<button type="primary" @click="gotoPage('/pages/event/event01/event01')">事件绑定</button>
 		<button type="primary" @click="gotoPage('/pages/lift/lift/lift')">uni的生命周期</button>
+		<button type="primary" @click="gotoPage('/pages/up/pull/pull')">上拉加载</button>
 	</view>
 </template>
 

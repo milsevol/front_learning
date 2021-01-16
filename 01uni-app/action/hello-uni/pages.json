@@ -87,6 +87,15 @@
             }
             
         }
+        ,{
+            "path" : "pages/up/pull/pull",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
     ],
 	"tabBar": {
 		"list": [{
