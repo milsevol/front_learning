@@ -78,6 +78,15 @@
             }
             
         }
+        ,{
+            "path" : "pages/lift/lift/lift",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": true
+            }
+            
+        }
     ],
 	"tabBar": {
 		"list": [{
