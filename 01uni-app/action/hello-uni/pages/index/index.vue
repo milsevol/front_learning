@@ -8,6 +8,11 @@
 		<button type="primary" @click="gotoPage('/pages/event/event01/event01')">事件绑定</button>
 		<button type="primary" @click="gotoPage('/pages/lift/lift/lift')">uni的生命周期</button>
 		<button type="primary" @click="gotoPage('/pages/up/pull/pull')">上拉加载</button>
+		<button type="primary" @click="gotoPage('/pages/get/sendGet/sendGet')">发送get请求</button>
+		<button type="primary" @click="gotoPage('/pages/storage/storage')">数据缓存</button>
+		<button type="primary" @click="gotoPage('/pages/chooseImg/chooseImg')">上传图片</button>
+		<button type="primary" @click="gotoPage('/pages/navigator/navigator')">导航跳转</button>
+		<button type="primary" @click="gotoPage('/pages/mycomponents/test/test')">自定义组件</button>
 	</view>
 </template>
 
